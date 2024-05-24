@@ -4,8 +4,12 @@
 # llmchat:
 <p>This is a WebUI APP written in python3 using the ollama and streamlit modules to chat with LLms running on your local machine :)</p>
 
+![llmchat](https://github.com/Bhartiya-Hacker/llmchat/assets/108232080/5b5e7784-1e85-4ca0-a55b-6acd4286be6b)
+
 # llm-cli:
 <p>This is cli based chat app to chat with LLM running on your system</p>
+
+![cli](https://github.com/Bhartiya-Hacker/llmchat/assets/108232080/a92d1840-0a9a-407b-9300-5cd83e0e943e)
 
 # prerequirements
 
