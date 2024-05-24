@@ -20,9 +20,9 @@ def chat_with_tinyllama(prompt):
     return response
 
 def main():
-    conversation = []  # List to store conversation history
+    conversation = []  
 
-    print("You can start chatting with TinyLlama now. Type 'exit' to end the chat.")
+    print("You can start chatting with LlM now. Type 'exit' to end the chat." + '\n')
     while True:
         user_input = input("You: ")
         if user_input.lower() == 'exit':
@@ -38,7 +38,7 @@ def main():
             break
         
         response = chat_with_tinyllama(user_input)
-        print("TinyLlama: ", end="", flush=True)
+        print("AI: ", end="", flush=True)
         
         complete_message = ""
         for line in response.iter_lines():
@@ -49,7 +49,8 @@ def main():
                     complete_message += chunk
                     print(chunk, end="", flush=True)
         
-        print()  # For a new line after the complete response
+        print()
+        print('')
         conversation.append(f"You: {user_input}")
         conversation.append(f"TinyLlama: {complete_message}")
 
