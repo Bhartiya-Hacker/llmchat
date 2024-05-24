@@ -1,6 +1,11 @@
-# llmchat
+# llmchat & llm-cli:
+<p>Ths repository contains GUI LLM Chat App & also cli based chat app</p>
 
+# llmchat:
 <p>This is a WebUI APP written in python3 using the ollama and streamlit modules to chat with LLms running on your local machine :)</p>
+
+# llm-cli:
+<p>This is cli based chat app to chat with LLM running on your system</p>
 
 # prerequirements
 
@@ -37,4 +42,10 @@ ollama list
 ```bash
 streamlit run llmchat.py
 ```
-# This will start server on localhost:8501 and open your web browsers
+<p>This will start server on localhost:8501 and open your web browsers</p>
+
+# How to use CLI based Chat App:
+
+```bash
+python3 llm-cli.py
+```
